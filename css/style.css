@@ -1,0 +1,38 @@
+#desk div>p{
+    width: 400px;
+    padding: 3px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+#desk div>p:after{
+    content:'';
+    clear: both;
+}
+
+span.down{
+    width: 16px;
+    height: 16px;
+    background-image: url('/img/down_16.png');
+    display: inline-block;
+    float:left;
+    margin: 3px;
+}
+
+span.up{
+    width: 16px;
+    height: 16px;
+    background-image: url('/img/right_16.png');
+    display: inline-block;
+    float:left;
+    margin: 3px;
+}
+
+#desk li{
+    list-style: none;
+    list-style-image: url('/img/document_16.png');
+}
+
+.active{
+    font-weight: 900;
+}
